@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skeyp Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <meta name="description" content="Skeyp Store - En kaliteli FiveM sunucu scriptleri ve özel tasarımlar için doğru adres">
+</head>
+<body>
+    <!-- Discord Button -->
+    <a href="https://discord.gg/skeypdev" class="discord-btn" target="_blank">
+        <i class="fab fa-discord"></i>
+        <span>Discord'a Katıl</span>
+    </a>
+
+    <!-- Welcome Section -->
+    <section class="welcome-section">
+        <div class="welcome-content">
+            <h1>Skeyp Store</h1>
+            <p>Kaliteli Developer Hizmetleri Ve Scriptler!</p>
+            <div class="welcome-buttons">
+                <a href="#products" class="cta-button">Ürünler</a>
+                <a href="#about" class="cta-button secondary">Hakkımızda</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">
+            <span class="logo-text">Skeyp Store</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#welcome">Ana Sayfa</a></li>
+            <li><a href="#products">Ürünler</a></li>
+            <li><a href="#community">Hakkımızda</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <!-- Products Section -->
+    <section id="products" class="products-section">
+        <h2>Ürünler</h2>
+        <div class="product-cards">
+            <!-- BMW M5 -->
+            <div class="card">
+                <div class="card-image">
+                    <img src="https://cdn.discordapp.com/attachments/1345796786912235610/1383091813790777500/Skeyp_Store_2-Photoroom.png?ex=684d8821&is=684c36a1&hm=91b4b494c3dfbad94bc1d1c50c5fb5e5794c1fd6b9b68c50dfa775a5899aac49&" alt="BMW M5">
+                    <div class="card-overlay">
+                        <span class="discount">%10 İndirim</span>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h3>Developer Hizmeti!</h3>
+                    <p class="description">Haftalık 3000Tl-Aylık-8000Tl-Liste Hakkı Tamamen size özel fiyatlandırma ve çözümler!</p>
+                    <div class="product-features">
+                        <span><i class="fas fa-tachometer-alt"></i> Size Özel Fiyat!</span>
+                        <span><i class="fas fa-car"></i> Listelendirme!</span>
+                    </div>
+                    <div class="price">₺3000-8000-Özel</div>
+                    <button class="buy-btn" onclick="redirectToDiscord()">Satın Al</button>
+                </div>
+            </div>
+
+            <!-- Black Market Access -->
+            <div class="card">
+                <div class="card-image">
+                    <img src="https://cdn.discordapp.com/attachments/1345796786912235610/1383091813790777500/Skeyp_Store_2-Photoroom.png?ex=684d8821&is=684c36a1&hm=91b4b494c3dfbad94bc1d1c50c5fb5e5794c1fd6b9b68c50dfa775a5899aac49&" alt="Black Market Access">
+                    <div class="card-overlay">
+                        <span class="discount">%10 İndirim</span>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h3>Non-Wl Sunucu Paketi!</h3>
+                    <p class="description">Daha Fazla Bilgi İçin Discord Adresimize Katılın!</p>
+                    <div class="product-features">
+                        <span><i class="fas fa-shield-alt"></i>  Destek!</span>
+                        <span><i class="fas fa-gun"></i>  2 List Hak!</span>
+                        <span><i class="fas fa-box"></i>  Kıyafet Paketi!</span>
+                    </div>
+                    <div class="price">₺4,100</div>
+                    <button class="buy-btn" onclick="redirectToDiscord()">Satın Al</button>
+                </div>
+            </div>
+
+            <!-- BMW S1000RR -->
+            <div class="card">
+                <div class="card-image">
+                    <img src="https://cdn.discordapp.com/attachments/1345796786912235610/1383091813790777500/Skeyp_Store_2-Photoroom.png?ex=684d8821&is=684c36a1&hm=91b4b494c3dfbad94bc1d1c50c5fb5e5794c1fd6b9b68c50dfa775a5899aac49&" alt="BMW S1000RR">
+                    <div class="card-overlay">
+                        <span class="new">Yeni</span>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h3>Loading Screen</h3>
+                    <p class="description">Loading Screen Daha Fazla Bilgi İçin Discord Adresimize Katılın!</p>
+                    <div class="product-features">
+                        <span><i class="fas fa-tachometer-alt"></i> Müzik</span>
+                        <span><i class="fas fa-motorcycle"></i> Logo</span>
+                        <span><i class="fas fa-bolt"></i> Yazı</span>
+                    </div>
+                    <div class="price">₺300</div>
+                    <button class="buy-btn" onclick="redirectToDiscord()">Satın Al</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="community" class="community-section">
+        <div class="community-grid">
+            <div class="community-card servers">
+                <h3>Hakkımızda</h3>
+                <div class="server-list">
+                    <div class="server-item">
+                        <i class="fas fa-server"></i>
+                        <div class="server-info">
+                            <h5>Rusein Mashadow</h5>
+                            <p>Rusein Mashadow</p>
+                        </div>
+                        <span class="server-status online">SkeypStr!</span>
+                    </div>
+                    <div class="server-item">
+                        <i class="fas fa-server"></i>
+                        <div class="server-info">
+                            <h5>UenFH-PrAdA</h5>
+                            <p>UenFH-PrAdA</p>
+                        </div>
+                        <span class="server-status online">SkeypStr!</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="community-card events">
+                <h3>Yaklaşan Etkinlikler</h3>
+                <div class="event-list">
+                    <div class="event-item">
+                        <div class="event-date">
+                            <span class="day">15</span>
+                            <span class="month">Haz</span>
+                        </div>
+                        <div class="event-info">
+                            <h5>Çekiliş!</h5>
+                            <p>Her Hafta Düzenlenen Çekilişler!</p>
+                        </div>
+                    </div>
+                    <div class="event-item">
+                        <div class="event-date">
+                            <span class="day">20</span>
+                            <span class="month">Haz</span>
+                        </div>
+                        <div class="event-info">
+                            <h5>Roleplay Etkinliği</h5>
+                            <p>Özel senaryo ve ödüller</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="community-cta">
+            <a href="https://discord.gg/Mkh7fwm6" class="join-discord-btn" target="_blank">
+                <i class="fab fa-discord"></i>
+                Discord'a Katıl
+            </a>
+            <p class="discord-info">7/24 aktif destek ve özel fırsatlar için hemen katılın!</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Skeyp Store</h4>
+                <p>Skeyp Store</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-discord"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Hızlı Bağlantılar</h4>
+                <ul>
+                    <li><a href="#products">Ürünler</a></li>
+                    <li><a href="#community">Topluluk</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>İletişim</h4>
+                <ul>
+                    <li><i class="fab fa-discord"></i> SkeypDev</li>
+                    <li><i class="fas fa-envelope"></i>  SkeypDev</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Skeyp Store. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
